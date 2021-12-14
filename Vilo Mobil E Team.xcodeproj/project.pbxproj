@@ -24,6 +24,7 @@
 		BF8988152768BF2C0077824D /* StationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988142768BF2C0077824D /* StationDetailView.swift */; };
 		BF8988172768BF750077824D /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988162768BF750077824D /* Station.swift */; };
 		BF8988192768C1510077824D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988182768C1510077824D /* ModelData.swift */; };
+		BF89881B2768C9D60077824D /* stations.json in Resources */ = {isa = PBXBuildFile; fileRef = BF89881A2768C9D60077824D /* stations.json */; };
 		BF97F265275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97F264275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift */; };
 		BF97F267275FA23500C4519A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97F266275FA23500C4519A /* ContentView.swift */; };
 		BF97F269275FA23600C4519A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF97F268275FA23600C4519A /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		BF8988142768BF2C0077824D /* StationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailView.swift; sourceTree = "<group>"; };
 		BF8988162768BF750077824D /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
 		BF8988182768C1510077824D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		BF89881A2768C9D60077824D /* stations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = stations.json; path = "Vilo Mobil E Team/stations.json"; sourceTree = SOURCE_ROOT; };
 		BF97F261275FA23500C4519A /* Vilo Mobil E Team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vilo Mobil E Team.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF97F264275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vilo_Mobil_E_TeamApp.swift; sourceTree = "<group>"; };
 		BF97F266275FA23500C4519A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,15 +132,15 @@
 			children = (
 				BF8988102768BE770077824D /* AddFavouriteView.swift */,
 				BF97F266275FA23500C4519A /* ContentView.swift */,
+				D03F408F2768C858006B368C /* DetailRideView.swift */,
 				BF89880E2768BE5F0077824D /* IncidentReportView.swift */,
 				BF8988082768BA7C0077824D /* MapView.swift */,
-				68D057782768C7B200F9A39A /* SplashScreenView.swift */,
 				BF8988112768BE770077824D /* ModifyView.swift */,
 				BF89880C2768BE370077824D /* SearchView.swift */,
+				68D057782768C7B200F9A39A /* SplashScreenView.swift */,
+				BF8988142768BF2C0077824D /* StationDetailView.swift */,
 				BF89880A2768BE2B0077824D /* WeatherView.swift */,
 				BFAC66E52768A6E200994230 /* Extracted */,
-				BF8988142768BF2C0077824D /* StationDetailView.swift */,
-				D03F408F2768C858006B368C /* DetailRideView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -154,6 +156,7 @@
 		BFAC66D527689E3200994230 /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
+				BF89881A2768C9D60077824D /* stations.json */,
 			);
 			path = Ressources;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			files = (
 				BF97F26C275FA23600C4519A /* Preview Assets.xcassets in Resources */,
 				BF97F269275FA23600C4519A /* Assets.xcassets in Resources */,
+				BF89881B2768C9D60077824D /* stations.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
