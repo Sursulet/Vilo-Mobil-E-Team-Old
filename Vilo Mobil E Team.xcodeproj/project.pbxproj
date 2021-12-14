@@ -35,6 +35,10 @@
 		BFAC66E92768A7E700994230 /* IconCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66E82768A7E700994230 /* IconCircle.swift */; };
 		BFAC66EB2768A85F00994230 /* Btn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66EA2768A85F00994230 /* Btn.swift */; };
 		D03F40902768C858006B368C /* DetailRideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F408F2768C858006B368C /* DetailRideView.swift */; };
+		D03F409C2768D329006B368C /* GoTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F409B2768D328006B368C /* GoTripView.swift */; };
+		D03F409E2768D32E006B368C /* TripChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F409D2768D32E006B368C /* TripChoiceView.swift */; };
+		D03F40A02768D340006B368C /* TripSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F409F2768D340006B368C /* TripSummaryView.swift */; };
+		D03F40A22768D347006B368C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F40A12768D347006B368C /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +71,10 @@
 		BFAC66E82768A7E700994230 /* IconCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCircle.swift; sourceTree = "<group>"; };
 		BFAC66EA2768A85F00994230 /* Btn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Btn.swift; sourceTree = "<group>"; };
 		D03F408F2768C858006B368C /* DetailRideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRideView.swift; sourceTree = "<group>"; };
+		D03F409B2768D328006B368C /* GoTripView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoTripView.swift; path = "../../../../../Desktop/Code/Xcode/AFP2 Projet/iosExampleBottomSheet/iosExampleBottomSheet/Views/Subviews/GoTripView.swift"; sourceTree = "<group>"; };
+		D03F409D2768D32E006B368C /* TripChoiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripChoiceView.swift; path = "../../../../../Desktop/Code/Xcode/AFP2 Projet/iosExampleBottomSheet/iosExampleBottomSheet/Views/Subviews/TripChoiceView.swift"; sourceTree = "<group>"; };
+		D03F409F2768D340006B368C /* TripSummaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripSummaryView.swift; path = "../../../../../Desktop/Code/Xcode/AFP2 Projet/iosExampleBottomSheet/iosExampleBottomSheet/Views/Subviews/TripSummaryView.swift"; sourceTree = "<group>"; };
+		D03F40A12768D347006B368C /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Models.swift; path = "../../../../../Desktop/Code/Xcode/AFP2 Projet/iosExampleBottomSheet/iosExampleBottomSheet/Models/Models.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +144,9 @@
 				BF97F266275FA23500C4519A /* ContentView.swift */,
 				D03F408F2768C858006B368C /* DetailRideView.swift */,
 				BF89880E2768BE5F0077824D /* IncidentReportView.swift */,
+				D03F409B2768D328006B368C /* GoTripView.swift */,
+				D03F409D2768D32E006B368C /* TripChoiceView.swift */,
+				D03F409F2768D340006B368C /* TripSummaryView.swift */,
 				BF8988082768BA7C0077824D /* MapView.swift */,
 				BF8988112768BE770077824D /* ModifyView.swift */,
 				BF89880C2768BE370077824D /* SearchView.swift */,
@@ -150,6 +161,7 @@
 		BF97F273275FA42B00C4519A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D03F40A12768D347006B368C /* Models.swift */,
 				BF8988162768BF750077824D /* Station.swift */,
 				BB09E6262768CD2B006BEEF6 /* InfoClimatParis.swift */,
 			);
@@ -259,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF8988072768B90D0077824D /* WeatherRow.swift in Sources */,
+				D03F409E2768D32E006B368C /* TripChoiceView.swift in Sources */,
 				BF8988092768BA7C0077824D /* MapView.swift in Sources */,
 				BF8988132768BE770077824D /* ModifyView.swift in Sources */,
 				BF8988152768BF2C0077824D /* StationDetailView.swift in Sources */,
@@ -275,12 +288,15 @@
 				BF89880F2768BE5F0077824D /* IncidentReportView.swift in Sources */,
 				BF97F265275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift in Sources */,
 				BF89880D2768BE370077824D /* SearchView.swift in Sources */,
+				D03F409C2768D329006B368C /* GoTripView.swift in Sources */,
 				BF8987FF2768B8A90077824D /* MarkerView.swift in Sources */,
+				D03F40A02768D340006B368C /* TripSummaryView.swift in Sources */,
 				BF8988062768B90D0077824D /* TogglePrimary.swift in Sources */,
 				BF8988172768BF750077824D /* Station.swift in Sources */,
 				BFAC66E92768A7E700994230 /* IconCircle.swift in Sources */,
 				BF8988012768B8FE0077824D /* ProfileRow.swift in Sources */,
 				BF8987FA2768B78F0077824D /* BubbleShape.swift in Sources */,
+				D03F40A22768D347006B368C /* Models.swift in Sources */,
 				BF8987FC2768B7C20077824D /* DiamondArrowShape.swift in Sources */,
 				BFAC66E42768A22C00994230 /* MainViewModel.swift in Sources */,
 			);
