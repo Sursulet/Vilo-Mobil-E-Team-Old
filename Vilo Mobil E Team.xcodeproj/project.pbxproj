@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68D057792768C7B200F9A39A /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D057782768C7B200F9A39A /* SplashScreenView.swift */; };
 		BF8987FA2768B78F0077824D /* BubbleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8987F92768B78F0077824D /* BubbleShape.swift */; };
 		BF8987FC2768B7C20077824D /* DiamondArrowShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8987FB2768B7C20077824D /* DiamondArrowShape.swift */; };
 		BF8987FF2768B8A90077824D /* MarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8987FE2768B8A90077824D /* MarkerView.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68D057782768C7B200F9A39A /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		BF8987F92768B78F0077824D /* BubbleShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleShape.swift; sourceTree = "<group>"; };
 		BF8987FB2768B7C20077824D /* DiamondArrowShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiamondArrowShape.swift; sourceTree = "<group>"; };
 		BF8987FE2768B8A90077824D /* MarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				BF97F266275FA23500C4519A /* ContentView.swift */,
 				BF89880E2768BE5F0077824D /* IncidentReportView.swift */,
 				BF8988082768BA7C0077824D /* MapView.swift */,
+				68D057782768C7B200F9A39A /* SplashScreenView.swift */,
 				BF8988112768BE770077824D /* ModifyView.swift */,
 				BF89880C2768BE370077824D /* SearchView.swift */,
 				BF89880A2768BE2B0077824D /* WeatherView.swift */,
@@ -252,6 +255,7 @@
 				BF8988192768C1510077824D /* ModelData.swift in Sources */,
 				BFAC66EB2768A85F00994230 /* Btn.swift in Sources */,
 				BF97F267275FA23500C4519A /* ContentView.swift in Sources */,
+				68D057792768C7B200F9A39A /* SplashScreenView.swift in Sources */,
 				BF89880B2768BE2B0077824D /* WeatherView.swift in Sources */,
 				BF8988122768BE770077824D /* AddFavouriteView.swift in Sources */,
 				BFAC66E72768A6FD00994230 /* IconSquare.swift in Sources */,
