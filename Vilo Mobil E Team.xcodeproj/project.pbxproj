@@ -16,6 +16,7 @@
 		BFAC66DE2768A06000994230 /* AddFavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66DD2768A06000994230 /* AddFavouriteView.swift */; };
 		BFAC66E02768A12D00994230 /* Extracted in Resources */ = {isa = PBXBuildFile; fileRef = BFAC66DF2768A12D00994230 /* Extracted */; };
 		BFAC66E22768A16700994230 /* Shape in Resources */ = {isa = PBXBuildFile; fileRef = BFAC66E12768A16700994230 /* Shape */; };
+		BFAC66E42768A22C00994230 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66E32768A22C00994230 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		BFAC66DD2768A06000994230 /* AddFavouriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddFavouriteView.swift; path = ../../../../Downloads/AddFavouriteView.swift; sourceTree = "<group>"; };
 		BFAC66DF2768A12D00994230 /* Extracted */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Extracted; path = "../../../Vilo Stephanie/Vilo Stephanie/View/Extracted"; sourceTree = "<group>"; };
 		BFAC66E12768A16700994230 /* Shape */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Shape; path = "../../../Vilo Stephanie/Vilo Stephanie/Shape"; sourceTree = "<group>"; };
+		BFAC66E32768A22C00994230 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +63,13 @@
 		BF97F263275FA23500C4519A /* Vilo Mobil E Team */ = {
 			isa = PBXGroup;
 			children = (
-				BFAC66D627689E3C00994230 /* ViewModel */,
-				BFAC66D527689E3200994230 /* Ressources */,
-				BF97F273275FA42B00C4519A /* Model */,
-				BF97F272275FA41C00C4519A /* View */,
 				BF97F264275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift */,
 				BF97F268275FA23600C4519A /* Assets.xcassets */,
+				BF97F273275FA42B00C4519A /* Model */,
 				BF97F26A275FA23600C4519A /* Preview Content */,
+				BFAC66D527689E3200994230 /* Ressources */,
+				BF97F272275FA41C00C4519A /* View */,
+				BFAC66D627689E3C00994230 /* ViewModel */,
 			);
 			path = "Vilo Mobil E Team";
 			sourceTree = "<group>";
@@ -110,6 +112,7 @@
 		BFAC66D627689E3C00994230 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BFAC66E32768A22C00994230 /* MainViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				BFAC66DA2768A02D00994230 /* IncidentReportView.swift in Sources */,
 				BFAC66DC2768A05900994230 /* ModifyView.swift in Sources */,
 				BF97F265275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift in Sources */,
+				BFAC66E42768A22C00994230 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

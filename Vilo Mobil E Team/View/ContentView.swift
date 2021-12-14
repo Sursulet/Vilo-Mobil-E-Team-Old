@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var viewModel = MainViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
+        ZStack {
+            Text("Hello, world!")
             .padding()
+        }
+        .environmentObject(viewModel)
     }
 }
 
