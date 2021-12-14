@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		68D057792768C7B200F9A39A /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D057782768C7B200F9A39A /* SplashScreenView.swift */; };
+		BB09E6272768CD2B006BEEF6 /* InfoClimatParis.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB09E6262768CD2B006BEEF6 /* InfoClimatParis.swift */; };
 		BF8987FA2768B78F0077824D /* BubbleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8987F92768B78F0077824D /* BubbleShape.swift */; };
 		BF8987FC2768B7C20077824D /* DiamondArrowShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8987FB2768B7C20077824D /* DiamondArrowShape.swift */; };
 		BF8987FF2768B8A90077824D /* MarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8987FE2768B8A90077824D /* MarkerView.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		68D057782768C7B200F9A39A /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		BB09E6262768CD2B006BEEF6 /* InfoClimatParis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoClimatParis.swift; sourceTree = "<group>"; };
 		BF8987F92768B78F0077824D /* BubbleShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleShape.swift; sourceTree = "<group>"; };
 		BF8987FB2768B7C20077824D /* DiamondArrowShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiamondArrowShape.swift; sourceTree = "<group>"; };
 		BF8987FE2768B8A90077824D /* MarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerView.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				BF8988162768BF750077824D /* Station.swift */,
+				BB09E6262768CD2B006BEEF6 /* InfoClimatParis.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				BF97F267275FA23500C4519A /* ContentView.swift in Sources */,
 				68D057792768C7B200F9A39A /* SplashScreenView.swift in Sources */,
 				BF89880B2768BE2B0077824D /* WeatherView.swift in Sources */,
+				BB09E6272768CD2B006BEEF6 /* InfoClimatParis.swift in Sources */,
 				D03F40902768C858006B368C /* DetailRideView.swift in Sources */,
 				BF8988122768BE770077824D /* AddFavouriteView.swift in Sources */,
 				BFAC66E72768A6FD00994230 /* IconSquare.swift in Sources */,
