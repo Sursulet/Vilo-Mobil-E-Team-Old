@@ -16,6 +16,15 @@
 		BF8988052768B90D0077824D /* SliderPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988022768B90D0077824D /* SliderPrimary.swift */; };
 		BF8988062768B90D0077824D /* TogglePrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988032768B90D0077824D /* TogglePrimary.swift */; };
 		BF8988072768B90D0077824D /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988042768B90D0077824D /* WeatherRow.swift */; };
+		BF8988092768BA7C0077824D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988082768BA7C0077824D /* MapView.swift */; };
+		BF89880B2768BE2B0077824D /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89880A2768BE2B0077824D /* WeatherView.swift */; };
+		BF89880D2768BE370077824D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89880C2768BE370077824D /* SearchView.swift */; };
+		BF89880F2768BE5F0077824D /* IncidentReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89880E2768BE5F0077824D /* IncidentReportView.swift */; };
+		BF8988122768BE770077824D /* AddFavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988102768BE770077824D /* AddFavouriteView.swift */; };
+		BF8988132768BE770077824D /* ModifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988112768BE770077824D /* ModifyView.swift */; };
+		BF8988152768BF2C0077824D /* StationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988142768BF2C0077824D /* StationDetailView.swift */; };
+		BF8988172768BF750077824D /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988162768BF750077824D /* Station.swift */; };
+		BF8988192768C1510077824D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988182768C1510077824D /* ModelData.swift */; };
 		BF97F265275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97F264275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift */; };
 		BF97F267275FA23500C4519A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97F266275FA23500C4519A /* ContentView.swift */; };
 		BF97F269275FA23600C4519A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF97F268275FA23600C4519A /* Assets.xcassets */; };
@@ -37,6 +46,15 @@
 		BF8988022768B90D0077824D /* SliderPrimary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderPrimary.swift; sourceTree = "<group>"; };
 		BF8988032768B90D0077824D /* TogglePrimary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TogglePrimary.swift; sourceTree = "<group>"; };
 		BF8988042768B90D0077824D /* WeatherRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
+		BF8988082768BA7C0077824D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BF89880A2768BE2B0077824D /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		BF89880C2768BE370077824D /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		BF89880E2768BE5F0077824D /* IncidentReportView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncidentReportView.swift; sourceTree = "<group>"; };
+		BF8988102768BE770077824D /* AddFavouriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFavouriteView.swift; sourceTree = "<group>"; };
+		BF8988112768BE770077824D /* ModifyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifyView.swift; sourceTree = "<group>"; };
+		BF8988142768BF2C0077824D /* StationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailView.swift; sourceTree = "<group>"; };
+		BF8988162768BF750077824D /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		BF8988182768C1510077824D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		BF97F261275FA23500C4519A /* Vilo Mobil E Team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vilo Mobil E Team.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF97F264275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vilo_Mobil_E_TeamApp.swift; sourceTree = "<group>"; };
 		BF97F266275FA23500C4519A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +106,7 @@
 		BF97F263275FA23500C4519A /* Vilo Mobil E Team */ = {
 			isa = PBXGroup;
 			children = (
+				BF8988182768C1510077824D /* ModelData.swift */,
 				BF97F264275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift */,
 				BF97F268275FA23600C4519A /* Assets.xcassets */,
 				BF97F273275FA42B00C4519A /* Model */,
@@ -111,10 +130,17 @@
 		BF97F272275FA41C00C4519A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BFAC66E52768A6E200994230 /* Extracted */,
-				BF97F266275FA23500C4519A /* ContentView.swift */,
-				BB09E61E2768AED3006BEEF6 /* newView.swift */,
+				BF8988102768BE770077824D /* AddFavouriteView.swift */,
 				BB09E6202768B1D6006BEEF6 /* anotherView.swift */,
+				BF97F266275FA23500C4519A /* ContentView.swift */,
+				BF89880E2768BE5F0077824D /* IncidentReportView.swift */,
+				BF8988082768BA7C0077824D /* MapView.swift */,
+				BF8988112768BE770077824D /* ModifyView.swift */,
+				BB09E61E2768AED3006BEEF6 /* newView.swift */,
+				BF89880C2768BE370077824D /* SearchView.swift */,
+				BF89880A2768BE2B0077824D /* WeatherView.swift */,
+				BFAC66E52768A6E200994230 /* Extracted */,
+				BF8988142768BF2C0077824D /* StationDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -122,6 +148,7 @@
 		BF97F273275FA42B00C4519A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF8988162768BF750077824D /* Station.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -228,15 +255,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF8988072768B90D0077824D /* WeatherRow.swift in Sources */,
+				BF8988092768BA7C0077824D /* MapView.swift in Sources */,
+				BF8988132768BE770077824D /* ModifyView.swift in Sources */,
 				BB09E6212768B1D6006BEEF6 /* anotherView.swift in Sources */,
+				BF8988152768BF2C0077824D /* StationDetailView.swift in Sources */,
+				BF8988192768C1510077824D /* ModelData.swift in Sources */,
 				BFAC66EB2768A85F00994230 /* Btn.swift in Sources */,
 				BF97F267275FA23500C4519A /* ContentView.swift in Sources */,
+				BF89880B2768BE2B0077824D /* WeatherView.swift in Sources */,
+				BF8988122768BE770077824D /* AddFavouriteView.swift in Sources */,
 				BFAC66E72768A6FD00994230 /* IconSquare.swift in Sources */,
 				BF8988052768B90D0077824D /* SliderPrimary.swift in Sources */,
+				BF89880F2768BE5F0077824D /* IncidentReportView.swift in Sources */,
 				BB09E61F2768AED3006BEEF6 /* newView.swift in Sources */,
 				BF97F265275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift in Sources */,
+				BF89880D2768BE370077824D /* SearchView.swift in Sources */,
 				BF8987FF2768B8A90077824D /* MarkerView.swift in Sources */,
 				BF8988062768B90D0077824D /* TogglePrimary.swift in Sources */,
+				BF8988172768BF750077824D /* Station.swift in Sources */,
 				BFAC66E92768A7E700994230 /* IconCircle.swift in Sources */,
 				D03F408C2768C1EE006B368C /* Jview.swift in Sources */,
 				BF8988012768B8FE0077824D /* ProfileRow.swift in Sources */,
