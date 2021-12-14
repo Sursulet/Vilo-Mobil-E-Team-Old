@@ -8,8 +8,10 @@
 import SwiftUI
 
 enum ModalContent {
-    case filter, profile, weather, report, search, favorites, detail
+    case landing, profile, weather, report, search, favorites, detail
 }
+
+enum ModalSize { case middle, full }
 
 struct ContentView: View {
     
@@ -23,20 +25,20 @@ struct ContentView: View {
             VStack(alignment: .leading) {
                 HStack {
                     Button(
-                        action: { viewModel.onEvent(.profile)},
+                        action: { viewModel.onEvent(.profile, size: .middle)},
                         label: { IconCircle(symbol: "person.fill") })
                     
                     Spacer()
                     
                     Button(
-                        action: { viewModel.onEvent(.weather) },
+                        action: { viewModel.onEvent(.weather, size: .full) },
                         label: { IconCircle(symbol: "cloud.sun.rain") })
                 }
                 
                 Spacer()
                 
                 Button(
-                    action: { viewModel.onEvent(.report) },
+                    action: { viewModel.onEvent(.report, size: .middle) },
                     label: { IconSquare(symbol: "eye.trianglebadge.exclamationmark.fill") })
             }
             .padding(.bottom, 80)
@@ -61,7 +63,7 @@ struct ContentView: View {
                         .padding(.horizontal)
                         .frame(maxHeight: .infinity, alignment: .top)
                     }
-                    .offset(y: viewModel.height - 100)
+                        .offset(y: viewModel.height - viewModel.modalOffset)
                     .offset(y: viewModel.getOffset())
                     .gesture(DragGesture()
                         .updating($gestureOffset, body: { value, out, _ in
@@ -110,7 +112,7 @@ struct BottomContent: View {
                 SearchView()
             case .favorites:
                 AddFavouriteView()
-            case .filter:
+            case .landing:
                 WeatherView()
             case .detail:
                 StationDetailView(station: $viewModel.selectedStation)
