@@ -7,15 +7,36 @@
 
 import SwiftUI
 import MapKit
+import CoreLocationUI
 
 struct MapView: View {
     
     @EnvironmentObject var viewModel: MainViewModel
     
     var body: some View {
-        Map(coordinateRegion: $viewModel.region,
-            showsUserLocation: true)
-            .ignoresSafeArea()
+        ZStack {
+            Map(coordinateRegion: $viewModel.region,
+                showsUserLocation: true)
+                .ignoresSafeArea()
+            
+            VStack {
+                Button(
+                    action: {},
+                    label: { IconSquare(symbol: "bicycle") })
+                
+                LocationButton(.currentLocation) {
+                    viewModel.requestAllowOnceLocationPermission()
+                }
+                .font(.system(size: 35))
+                .foregroundColor(.white)
+                .cornerRadius(15)
+                .tint(Color("vilo"))
+                .labelStyle(.iconOnly)
+                .symbolVariant(.fill)
+            }
+            .padding(.trailing)
+            .padding(.bottom, 80)
+        }
     }
 }
 

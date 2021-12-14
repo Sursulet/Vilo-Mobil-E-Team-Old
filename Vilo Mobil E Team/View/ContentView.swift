@@ -103,7 +103,7 @@ struct BottomContent: View {
         
         switch viewModel.modalContent {
             case .profile:
-                WeatherView()
+                ProfileView()
             case .weather:
                 WeatherView()
             case .report:
