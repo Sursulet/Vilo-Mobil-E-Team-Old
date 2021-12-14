@@ -135,3 +135,7 @@ struct Place: Identifiable, Hashable {
 //    var coordinates: mapkit.Coordinate
 
 }
+
+extension User {
+    static var globalUser = User()
+}
