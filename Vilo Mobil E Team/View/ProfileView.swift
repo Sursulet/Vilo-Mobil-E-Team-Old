@@ -19,8 +19,8 @@ struct ProfileView: View {
             List{
                 Button {
                     // action: go to address selection
-                    viewModel.modalContent = .search(type: .home)
-                    viewModel.position = .top
+//                    viewModel.modalContent = .search(type: .home)
+                    viewModel.setAnimation(value: .full)
                 } label: {
                     HStack{
                         Text("Mon domicile")
@@ -33,13 +33,13 @@ struct ProfileView: View {
                 
                 Button {
                     // action: go to address selection
-                    viewModel.context = .search(type: .office)
-                    viewModel.position = .top
+//                    viewModel.modalContent = .search(type: .office)
+                    viewModel.setAnimation(value: .full)
                 } label: {
                     HStack{
                         Text("Mon bureau")
                         Spacer()
-                        Text(user.officeAddress)
+                        Text(viewModel.user.officeAddress)
                             .font(.footnote)
                             .foregroundColor(.blue)
                     }
@@ -48,7 +48,7 @@ struct ProfileView: View {
                 HStack {
                     Text("Mon mode de trajet favoris")
                     Spacer()
-                    Picker("Mon mode de trajet favoris", selection: $user.preferredTripType) {
+                    Picker("Mon mode de trajet favoris", selection: $viewModel.user.preferredTripType) {
                         ForEach(PreferredTripType.allCases, id: \.self){
                             Text($0.rawValue)
                                 .font(.footnote)
@@ -60,7 +60,7 @@ struct ProfileView: View {
                 HStack {
                     Text("Mon type de vélo favoris")
                     Spacer()
-                    Picker("Mon type de vélo favoris", selection: $user.preferredBikeType) {
+                    Picker("Mon type de vélo favoris", selection: $viewModel.user.preferredBikeType) {
                         ForEach(PreferredBikeType.allCases, id: \.self){
                             Text($0.rawValue)
                             
@@ -68,20 +68,20 @@ struct ProfileView: View {
                     }.pickerStyle(.menu)
                 }
                 
-                if user.favorites.isEmpty {
+                if viewModel.user.favorites.isEmpty {
                     NavigationLink("Mes destinations favorites") {
                         //destination liste des destinations favorites
                     }
                 } else {
                     Button {
                         
-                        viewModel.context = .favorite
+//                        viewModel.modalContent = .favorite
                         
                     } label: {
                         HStack{
                             Text("Mes destinations favorites")
                             Spacer()
-                            Text("\(user.favorites.count)")
+                            Text("\(viewModel.user.favorites.count)")
                                 .font(.footnote)
                                 .foregroundColor(.blue)
                         }
@@ -92,39 +92,39 @@ struct ProfileView: View {
             .padding(.vertical)
         }
         
-        if viewModel.context == .search(type: .home) {
-            VStack{
-                SearchBar(viewModel: viewModel)
-                if viewModel.destination.isEmpty {
-                    RecentsView(tap: $tap, choice: $user.homeAddress)
-                        .onChange(of: tap) { newValue in
-                            viewModel.position = .middle
-                            viewModel.context = .profile
-                        }
-                }
-                else {
-                    SuggestionsView()
-                }
-                Spacer()
-            }
-        }
+//        if viewModel.context == .search(type: .home) {
+//            VStack{
+//                SearchBar(viewModel: viewModel)
+//                if viewModel.destination.isEmpty {
+//                    RecentsView(tap: $tap, choice: $user.homeAddress)
+//                        .onChange(of: tap) { newValue in
+//                            viewModel.position = .middle
+//                            viewModel.context = .profile
+//                        }
+//                }
+//                else {
+//                    SuggestionsView()
+//                }
+//                Spacer()
+//            }
+//        }
         
-        if viewModel.context == .search(type: .office) {
-            VStack{
-                SearchBar(viewModel: viewModel)
-                if viewModel.destination.isEmpty {
-                    RecentsView(tap: $tap, choice: $user.officeAddress)
-                        .onChange(of: tap) { newValue in
-                            viewModel.position = .middle
-                            viewModel.context = .profile
-                        }
-                }
-                else {
-                    SuggestionsView()
-                }
-                Spacer()
-            }
-        }
+//        if viewModel.context == .search(type: .office) {
+//            VStack{
+//                SearchBar(viewModel: viewModel)
+//                if viewModel.destination.isEmpty {
+//                    RecentsView(tap: $tap, choice: $user.officeAddress)
+//                        .onChange(of: tap) { newValue in
+//                            viewModel.position = .middle
+//                            viewModel.context = .profile
+//                        }
+//                }
+//                else {
+//                    SuggestionsView()
+//                }
+//                Spacer()
+//            }
+//        }
         
         //        if viewModel.context == .favorite {
         //            List(user.favorites, id: \.place.id){ fav in
