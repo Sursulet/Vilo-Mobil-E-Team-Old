@@ -12,18 +12,16 @@ struct IncidentReportView: View {
     @EnvironmentObject var viewModel: MainViewModel
     
     var body: some View {
-        VStack(spacing: 30){
-           Spacer()
+        VStack {
             
             Text("Signaler un incident")
                 .fontWeight(.bold)
+            
             TextField("Votre position", text: $viewModel.textReport)
                 .frame(width: 300, height: 40)
                 .background(RoundedRectangle(cornerRadius: 10))
                 .opacity(0.2)
                 .padding(.horizontal, 40)
-                
-          //  Spacer()
             
             HStack{
                 VStack {
@@ -62,11 +60,6 @@ struct IncidentReportView: View {
             }
             .padding(.horizontal)
             
-          //  Spacer()
-            
-            //StartValidButton(buttonText: "Ajouter")
-            
-         //   Spacer()
         }
     }
 }

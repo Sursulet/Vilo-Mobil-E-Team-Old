@@ -11,6 +11,8 @@ import MapKit
 
 final class MainViewModel: ObservableObject {
     
+    @Published var user = User()
+    
     var height: CGFloat = 0
     
     @Published var offset: CGFloat = 0
@@ -71,7 +73,7 @@ final class MainViewModel: ObservableObject {
         var newOffset: CGFloat = 0
         
         if value == .middle {
-           newOffset = -(self.height - 100 / 3)
+           newOffset = -(maxHeight / 3)
         } else if value == .full {
             newOffset = -maxHeight
         }
@@ -83,4 +85,53 @@ final class MainViewModel: ObservableObject {
         
         self.lastOffset = self.offset
     }
+}
+
+
+class User: ObservableObject {
+    @Published var homeAddress: String = "Définir l'adresse"
+    @Published var officeAddress: String = "Définir l'adresse"
+    
+    @Published var preferredTripType: PreferredTripType = .none
+    @Published var preferredBikeType: PreferredBikeType = .none
+    
+    @Published var favorites: [Favorite] = []
+}
+
+struct Favorite {
+    var place: Place
+    var icon: IconeBookmark
+}
+
+enum PreferredBikeType: String, CaseIterable {
+    case none = "Aucun"
+    case myOwnBike = "Mon vélo perso"
+    case publicSharedBike = "Un vélo partagé public (type Vélib)"
+    case privateSharedBike = "Un vélo partagé privé (type Dott)"
+}
+
+enum PreferredTripType : String, CaseIterable {
+    case none = "Aucun"
+    case fast = "Rapide"
+    case secure = "Sécurisé"
+    case nice = "Agréable"
+    case discovery = "Découverte"
+}
+
+enum IconeBookmark: String {
+    case star = "star"
+    case heart = "heart.circle.fill"
+    case fork = "fork"
+    case cart = "cart"
+}
+
+struct Place: Identifiable, Hashable {
+    var id = UUID()
+    var name: String
+    
+    var address: String
+    var latitude: Double = 0.0
+    var longitude: Double = 0.0
+//    var coordinates: mapkit.Coordinate
+
 }
