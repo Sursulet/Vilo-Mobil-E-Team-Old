@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		682C8E372768C33300F2F16E /* feihfeiorhgfr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682C8E362768C33300F2F16E /* feihfeiorhgfr.swift */; };
 		BB09E61F2768AED3006BEEF6 /* newView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB09E61E2768AED3006BEEF6 /* newView.swift */; };
 		BB09E6212768B1D6006BEEF6 /* anotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB09E6202768B1D6006BEEF6 /* anotherView.swift */; };
 		BF8987FA2768B78F0077824D /* BubbleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8987F92768B78F0077824D /* BubbleShape.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		682C8E362768C33300F2F16E /* feihfeiorhgfr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feihfeiorhgfr.swift; sourceTree = "<group>"; };
 		BB09E61E2768AED3006BEEF6 /* newView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newView.swift; sourceTree = "<group>"; };
 		BB09E6202768B1D6006BEEF6 /* anotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anotherView.swift; sourceTree = "<group>"; };
 		BF8987F92768B78F0077824D /* BubbleShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleShape.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				BB09E6202768B1D6006BEEF6 /* anotherView.swift */,
 				BF97F266275FA23500C4519A /* ContentView.swift */,
 				BF89880E2768BE5F0077824D /* IncidentReportView.swift */,
+				682C8E362768C33300F2F16E /* feihfeiorhgfr.swift */,
 				BF8988082768BA7C0077824D /* MapView.swift */,
 				BF8988112768BE770077824D /* ModifyView.swift */,
 				BB09E61E2768AED3006BEEF6 /* newView.swift */,
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				682C8E372768C33300F2F16E /* feihfeiorhgfr.swift in Sources */,
 				BF8988072768B90D0077824D /* WeatherRow.swift in Sources */,
 				BF8988092768BA7C0077824D /* MapView.swift in Sources */,
 				BF8988132768BE770077824D /* ModifyView.swift in Sources */,
