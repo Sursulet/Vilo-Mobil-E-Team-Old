@@ -59,7 +59,7 @@ final class MainViewModel: ObservableObject {
         return result
     }
     
-    func setAnimation(value: ModalSize) {
+    private func setAnimation(value: ModalSize) {
         
         let maxHeight = height - 100
         
@@ -71,7 +71,7 @@ final class MainViewModel: ObservableObject {
         var newOffset: CGFloat = 0
         
         if value == .middle {
-           newOffset = -(self.height - 100 / 3)
+           newOffset = -(maxHeight / 3)
         } else if value == .full {
             newOffset = -maxHeight
         }
