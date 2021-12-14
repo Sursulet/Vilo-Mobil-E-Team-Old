@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		BB09E61F2768AED3006BEEF6 /* newView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB09E61E2768AED3006BEEF6 /* newView.swift */; };
 		BB09E6212768B1D6006BEEF6 /* anotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB09E6202768B1D6006BEEF6 /* anotherView.swift */; };
+		BF8987FA2768B78F0077824D /* BubbleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8987F92768B78F0077824D /* BubbleShape.swift */; };
+		BF8987FC2768B7C20077824D /* DiamondArrowShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8987FB2768B7C20077824D /* DiamondArrowShape.swift */; };
+		BF8987FF2768B8A90077824D /* MarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8987FE2768B8A90077824D /* MarkerView.swift */; };
+		BF8988012768B8FE0077824D /* ProfileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988002768B8FE0077824D /* ProfileRow.swift */; };
+		BF8988052768B90D0077824D /* SliderPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988022768B90D0077824D /* SliderPrimary.swift */; };
+		BF8988062768B90D0077824D /* TogglePrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988032768B90D0077824D /* TogglePrimary.swift */; };
+		BF8988072768B90D0077824D /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988042768B90D0077824D /* WeatherRow.swift */; };
 		BF97F265275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97F264275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift */; };
 		BF97F267275FA23500C4519A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97F266275FA23500C4519A /* ContentView.swift */; };
 		BF97F269275FA23600C4519A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF97F268275FA23600C4519A /* Assets.xcassets */; };
@@ -22,6 +29,13 @@
 /* Begin PBXFileReference section */
 		BB09E61E2768AED3006BEEF6 /* newView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newView.swift; sourceTree = "<group>"; };
 		BB09E6202768B1D6006BEEF6 /* anotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anotherView.swift; sourceTree = "<group>"; };
+		BF8987F92768B78F0077824D /* BubbleShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleShape.swift; sourceTree = "<group>"; };
+		BF8987FB2768B7C20077824D /* DiamondArrowShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiamondArrowShape.swift; sourceTree = "<group>"; };
+		BF8987FE2768B8A90077824D /* MarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerView.swift; sourceTree = "<group>"; };
+		BF8988002768B8FE0077824D /* ProfileRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileRow.swift; sourceTree = "<group>"; };
+		BF8988022768B90D0077824D /* SliderPrimary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderPrimary.swift; sourceTree = "<group>"; };
+		BF8988032768B90D0077824D /* TogglePrimary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TogglePrimary.swift; sourceTree = "<group>"; };
+		BF8988042768B90D0077824D /* WeatherRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
 		BF97F261275FA23500C4519A /* Vilo Mobil E Team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vilo Mobil E Team.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF97F264275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vilo_Mobil_E_TeamApp.swift; sourceTree = "<group>"; };
 		BF97F266275FA23500C4519A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF8987FD2768B7E70077824D /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				BF8987FB2768B7C20077824D /* DiamondArrowShape.swift */,
+				BF8987F92768B78F0077824D /* BubbleShape.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
 		BF97F258275FA23500C4519A = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +91,7 @@
 				BF97F273275FA42B00C4519A /* Model */,
 				BF97F26A275FA23600C4519A /* Preview Content */,
 				BFAC66D527689E3200994230 /* Ressources */,
+				BF8987FD2768B7E70077824D /* Shape */,
 				BF97F272275FA41C00C4519A /* View */,
 				BFAC66D627689E3C00994230 /* ViewModel */,
 			);
@@ -118,9 +142,14 @@
 		BFAC66E52768A6E200994230 /* Extracted */ = {
 			isa = PBXGroup;
 			children = (
+				BF8988022768B90D0077824D /* SliderPrimary.swift */,
+				BF8988032768B90D0077824D /* TogglePrimary.swift */,
+				BF8988042768B90D0077824D /* WeatherRow.swift */,
+				BF8988002768B8FE0077824D /* ProfileRow.swift */,
 				BFAC66E62768A6FD00994230 /* IconSquare.swift */,
 				BFAC66E82768A7E700994230 /* IconCircle.swift */,
 				BFAC66EA2768A85F00994230 /* Btn.swift */,
+				BF8987FE2768B8A90077824D /* MarkerView.swift */,
 			);
 			path = Extracted;
 			sourceTree = "<group>";
@@ -195,13 +224,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF8988072768B90D0077824D /* WeatherRow.swift in Sources */,
 				BB09E6212768B1D6006BEEF6 /* anotherView.swift in Sources */,
 				BFAC66EB2768A85F00994230 /* Btn.swift in Sources */,
 				BF97F267275FA23500C4519A /* ContentView.swift in Sources */,
 				BFAC66E72768A6FD00994230 /* IconSquare.swift in Sources */,
+				BF8988052768B90D0077824D /* SliderPrimary.swift in Sources */,
 				BB09E61F2768AED3006BEEF6 /* newView.swift in Sources */,
 				BF97F265275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift in Sources */,
+				BF8987FF2768B8A90077824D /* MarkerView.swift in Sources */,
+				BF8988062768B90D0077824D /* TogglePrimary.swift in Sources */,
 				BFAC66E92768A7E700994230 /* IconCircle.swift in Sources */,
+				BF8988012768B8FE0077824D /* ProfileRow.swift in Sources */,
+				BF8987FA2768B78F0077824D /* BubbleShape.swift in Sources */,
+				BF8987FC2768B7C20077824D /* DiamondArrowShape.swift in Sources */,
 				BFAC66E42768A22C00994230 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
