@@ -11,12 +11,11 @@
 		BF97F267275FA23500C4519A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97F266275FA23500C4519A /* ContentView.swift */; };
 		BF97F269275FA23600C4519A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF97F268275FA23600C4519A /* Assets.xcassets */; };
 		BF97F26C275FA23600C4519A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF97F26B275FA23600C4519A /* Preview Assets.xcassets */; };
-		BFAC66DA2768A02D00994230 /* IncidentReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66D92768A02D00994230 /* IncidentReportView.swift */; };
-		BFAC66DC2768A05900994230 /* ModifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66DB2768A05900994230 /* ModifyView.swift */; };
-		BFAC66DE2768A06000994230 /* AddFavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66DD2768A06000994230 /* AddFavouriteView.swift */; };
-		BFAC66E02768A12D00994230 /* Extracted in Resources */ = {isa = PBXBuildFile; fileRef = BFAC66DF2768A12D00994230 /* Extracted */; };
-		BFAC66E22768A16700994230 /* Shape in Resources */ = {isa = PBXBuildFile; fileRef = BFAC66E12768A16700994230 /* Shape */; };
 		BFAC66E42768A22C00994230 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66E32768A22C00994230 /* MainViewModel.swift */; };
+		BFAC66E72768A6FD00994230 /* IconSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66E62768A6FD00994230 /* IconSquare.swift */; };
+		BFAC66E92768A7E700994230 /* IconCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66E82768A7E700994230 /* IconCircle.swift */; };
+		BFAC66EB2768A85F00994230 /* Btn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66EA2768A85F00994230 /* Btn.swift */; };
+		BFAC66ED2768AABA00994230 /* View in Resources */ = {isa = PBXBuildFile; fileRef = BFAC66EC2768AABA00994230 /* View */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,12 +24,11 @@
 		BF97F266275FA23500C4519A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF97F268275FA23600C4519A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF97F26B275FA23600C4519A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BFAC66D92768A02D00994230 /* IncidentReportView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IncidentReportView.swift; path = ../../../../Downloads/IncidentReportView.swift; sourceTree = "<group>"; };
-		BFAC66DB2768A05900994230 /* ModifyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModifyView.swift; path = ../../../../Downloads/ModifyView.swift; sourceTree = "<group>"; };
-		BFAC66DD2768A06000994230 /* AddFavouriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddFavouriteView.swift; path = ../../../../Downloads/AddFavouriteView.swift; sourceTree = "<group>"; };
-		BFAC66DF2768A12D00994230 /* Extracted */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Extracted; path = "../../../Vilo Stephanie/Vilo Stephanie/View/Extracted"; sourceTree = "<group>"; };
-		BFAC66E12768A16700994230 /* Shape */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Shape; path = "../../../Vilo Stephanie/Vilo Stephanie/Shape"; sourceTree = "<group>"; };
 		BFAC66E32768A22C00994230 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		BFAC66E62768A6FD00994230 /* IconSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSquare.swift; sourceTree = "<group>"; };
+		BFAC66E82768A7E700994230 /* IconCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCircle.swift; sourceTree = "<group>"; };
+		BFAC66EA2768A85F00994230 /* Btn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Btn.swift; sourceTree = "<group>"; };
+		BFAC66EC2768AABA00994230 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; name = View; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +83,8 @@
 		BF97F272275FA41C00C4519A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BFAC66E12768A16700994230 /* Shape */,
-				BFAC66DF2768A12D00994230 /* Extracted */,
-				BFAC66DD2768A06000994230 /* AddFavouriteView.swift */,
-				BFAC66DB2768A05900994230 /* ModifyView.swift */,
-				BFAC66D92768A02D00994230 /* IncidentReportView.swift */,
+				BFAC66E52768A6E200994230 /* Extracted */,
+				BFAC66EC2768AABA00994230 /* View */,
 				BF97F266275FA23500C4519A /* ContentView.swift */,
 			);
 			path = View;
@@ -115,6 +110,16 @@
 				BFAC66E32768A22C00994230 /* MainViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BFAC66E52768A6E200994230 /* Extracted */ = {
+			isa = PBXGroup;
+			children = (
+				BFAC66E62768A6FD00994230 /* IconSquare.swift */,
+				BFAC66E82768A7E700994230 /* IconCircle.swift */,
+				BFAC66EA2768A85F00994230 /* Btn.swift */,
+			);
+			path = Extracted;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,8 +182,7 @@
 			files = (
 				BF97F26C275FA23600C4519A /* Preview Assets.xcassets in Resources */,
 				BF97F269275FA23600C4519A /* Assets.xcassets in Resources */,
-				BFAC66E22768A16700994230 /* Shape in Resources */,
-				BFAC66E02768A12D00994230 /* Extracted in Resources */,
+				BFAC66ED2768AABA00994230 /* View in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,11 +193,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFAC66EB2768A85F00994230 /* Btn.swift in Sources */,
 				BF97F267275FA23500C4519A /* ContentView.swift in Sources */,
-				BFAC66DE2768A06000994230 /* AddFavouriteView.swift in Sources */,
-				BFAC66DA2768A02D00994230 /* IncidentReportView.swift in Sources */,
-				BFAC66DC2768A05900994230 /* ModifyView.swift in Sources */,
+				BFAC66E72768A6FD00994230 /* IconSquare.swift in Sources */,
 				BF97F265275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift in Sources */,
+				BFAC66E92768A7E700994230 /* IconCircle.swift in Sources */,
 				BFAC66E42768A22C00994230 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
