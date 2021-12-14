@@ -11,7 +11,7 @@ import SwiftUI
 struct Vilo_Mobil_E_TeamApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }
