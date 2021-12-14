@@ -27,6 +27,7 @@
 		BF8988172768BF750077824D /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988162768BF750077824D /* Station.swift */; };
 		BF8988192768C1510077824D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8988182768C1510077824D /* ModelData.swift */; };
 		BF89881B2768C9D60077824D /* stations.json in Resources */ = {isa = PBXBuildFile; fileRef = BF89881A2768C9D60077824D /* stations.json */; };
+		BF89881D2768D9AE0077824D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89881C2768D9AE0077824D /* LocationManager.swift */; };
 		BF97F265275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97F264275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift */; };
 		BF97F267275FA23500C4519A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF97F266275FA23500C4519A /* ContentView.swift */; };
 		BF97F269275FA23600C4519A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF97F268275FA23600C4519A /* Assets.xcassets */; };
@@ -36,6 +37,12 @@
 		BFAC66E92768A7E700994230 /* IconCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66E82768A7E700994230 /* IconCircle.swift */; };
 		BFAC66EB2768A85F00994230 /* Btn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66EA2768A85F00994230 /* Btn.swift */; };
 		D03F40902768C858006B368C /* DetailRideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F408F2768C858006B368C /* DetailRideView.swift */; };
+<<<<<<< HEAD
+=======
+		D03F40B92768D8AF006B368C /* GoTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F40B82768D8AF006B368C /* GoTripView.swift */; };
+		D03F40BB2768D8CF006B368C /* TripChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F40BA2768D8CF006B368C /* TripChoiceView.swift */; };
+		D03F40BD2768D8EF006B368C /* TripSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F40BC2768D8EF006B368C /* TripSummaryView.swift */; };
+>>>>>>> c6dce464064dc8b3db48d92ba6c611e0df3f6c9b
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +66,7 @@
 		BF8988162768BF750077824D /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
 		BF8988182768C1510077824D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		BF89881A2768C9D60077824D /* stations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = stations.json; path = "Vilo Mobil E Team/stations.json"; sourceTree = SOURCE_ROOT; };
+		BF89881C2768D9AE0077824D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		BF97F261275FA23500C4519A /* Vilo Mobil E Team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vilo Mobil E Team.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF97F264275FA23500C4519A /* Vilo_Mobil_E_TeamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vilo_Mobil_E_TeamApp.swift; sourceTree = "<group>"; };
 		BF97F266275FA23500C4519A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +77,12 @@
 		BFAC66E82768A7E700994230 /* IconCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCircle.swift; sourceTree = "<group>"; };
 		BFAC66EA2768A85F00994230 /* Btn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Btn.swift; sourceTree = "<group>"; };
 		D03F408F2768C858006B368C /* DetailRideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRideView.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		D03F40B82768D8AF006B368C /* GoTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoTripView.swift; sourceTree = "<group>"; };
+		D03F40BA2768D8CF006B368C /* TripChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripChoiceView.swift; sourceTree = "<group>"; };
+		D03F40BC2768D8EF006B368C /* TripSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSummaryView.swift; sourceTree = "<group>"; };
+>>>>>>> c6dce464064dc8b3db48d92ba6c611e0df3f6c9b
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +154,9 @@
 				BF89880E2768BE5F0077824D /* IncidentReportView.swift */,
 				BF8988082768BA7C0077824D /* MapView.swift */,
 				BF8988112768BE770077824D /* ModifyView.swift */,
+				D03F40BA2768D8CF006B368C /* TripChoiceView.swift */,
+				D03F40B82768D8AF006B368C /* GoTripView.swift */,
+				D03F40BC2768D8EF006B368C /* TripSummaryView.swift */,
 				BF89880C2768BE370077824D /* SearchView.swift */,
 				BB09E62A2768D565006BEEF6 /* ProfileView.swift */,
 				68D057782768C7B200F9A39A /* SplashScreenView.swift */,
@@ -171,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				BFAC66E32768A22C00994230 /* MainViewModel.swift */,
+				BF89881C2768D9AE0077824D /* LocationManager.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -265,8 +283,10 @@
 				BF8988092768BA7C0077824D /* MapView.swift in Sources */,
 				BF8988132768BE770077824D /* ModifyView.swift in Sources */,
 				BF8988152768BF2C0077824D /* StationDetailView.swift in Sources */,
+				D03F40BB2768D8CF006B368C /* TripChoiceView.swift in Sources */,
 				BF8988192768C1510077824D /* ModelData.swift in Sources */,
 				BFAC66EB2768A85F00994230 /* Btn.swift in Sources */,
+				BF89881D2768D9AE0077824D /* LocationManager.swift in Sources */,
 				BF97F267275FA23500C4519A /* ContentView.swift in Sources */,
 				68D057792768C7B200F9A39A /* SplashScreenView.swift in Sources */,
 				BF89880B2768BE2B0077824D /* WeatherView.swift in Sources */,
@@ -274,6 +294,7 @@
 				D03F40902768C858006B368C /* DetailRideView.swift in Sources */,
 				BF8988122768BE770077824D /* AddFavouriteView.swift in Sources */,
 				BFAC66E72768A6FD00994230 /* IconSquare.swift in Sources */,
+				D03F40B92768D8AF006B368C /* GoTripView.swift in Sources */,
 				BF8988052768B90D0077824D /* SliderPrimary.swift in Sources */,
 				BB09E62B2768D565006BEEF6 /* ProfileView.swift in Sources */,
 				BF89880F2768BE5F0077824D /* IncidentReportView.swift in Sources */,
@@ -285,6 +306,10 @@
 				BFAC66E92768A7E700994230 /* IconCircle.swift in Sources */,
 				BF8988012768B8FE0077824D /* ProfileRow.swift in Sources */,
 				BF8987FA2768B78F0077824D /* BubbleShape.swift in Sources */,
+<<<<<<< HEAD
+=======
+				D03F40BD2768D8EF006B368C /* TripSummaryView.swift in Sources */,
+>>>>>>> c6dce464064dc8b3db48d92ba6c611e0df3f6c9b
 				BF8987FC2768B7C20077824D /* DiamondArrowShape.swift in Sources */,
 				BFAC66E42768A22C00994230 /* MainViewModel.swift in Sources */,
 			);
