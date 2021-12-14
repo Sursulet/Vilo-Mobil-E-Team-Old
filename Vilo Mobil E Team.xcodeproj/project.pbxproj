@@ -24,6 +24,7 @@
 		BFAC66E72768A6FD00994230 /* IconSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66E62768A6FD00994230 /* IconSquare.swift */; };
 		BFAC66E92768A7E700994230 /* IconCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66E82768A7E700994230 /* IconCircle.swift */; };
 		BFAC66EB2768A85F00994230 /* Btn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66EA2768A85F00994230 /* Btn.swift */; };
+		D03F408C2768C1EE006B368C /* Jview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03F408B2768C1EE006B368C /* Jview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		BFAC66E62768A6FD00994230 /* IconSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSquare.swift; sourceTree = "<group>"; };
 		BFAC66E82768A7E700994230 /* IconCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCircle.swift; sourceTree = "<group>"; };
 		BFAC66EA2768A85F00994230 /* Btn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Btn.swift; sourceTree = "<group>"; };
+		D03F408B2768C1EE006B368C /* Jview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				BF8988022768B90D0077824D /* SliderPrimary.swift */,
+				D03F408B2768C1EE006B368C /* Jview.swift */,
 				BF8988032768B90D0077824D /* TogglePrimary.swift */,
 				BF8988042768B90D0077824D /* WeatherRow.swift */,
 				BF8988002768B8FE0077824D /* ProfileRow.swift */,
@@ -235,6 +238,7 @@
 				BF8987FF2768B8A90077824D /* MarkerView.swift in Sources */,
 				BF8988062768B90D0077824D /* TogglePrimary.swift in Sources */,
 				BFAC66E92768A7E700994230 /* IconCircle.swift in Sources */,
+				D03F408C2768C1EE006B368C /* Jview.swift in Sources */,
 				BF8988012768B8FE0077824D /* ProfileRow.swift in Sources */,
 				BF8987FA2768B78F0077824D /* BubbleShape.swift in Sources */,
 				BF8987FC2768B7C20077824D /* DiamondArrowShape.swift in Sources */,
