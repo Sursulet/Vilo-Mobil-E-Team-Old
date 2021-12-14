@@ -9,17 +9,23 @@ import SwiftUI
 
 struct ProfileView: View {
     
+    enum ProfileModalContent {
+        case profile, profileHomeSearch, profileOfficeSearch
+    }
+    
+    @State private var content: ProfileModalContent = .profile
+    
     @EnvironmentObject var viewModel: MainViewModel
     
     @State private var tap = false
     
     var body: some View {
         
-        if viewModel.modalContent == .profile {
+        if content == .profile {
             List{
                 Button {
                     // action: go to address selection
-//                    viewModel.modalContent = .search(type: .home)
+                    content = .profileHomeSearch
                     viewModel.setAnimation(value: .full)
                 } label: {
                     HStack{
@@ -33,7 +39,7 @@ struct ProfileView: View {
                 
                 Button {
                     // action: go to address selection
-//                    viewModel.modalContent = .search(type: .office)
+                    content = .profileOfficeSearch
                     viewModel.setAnimation(value: .full)
                 } label: {
                     HStack{
@@ -92,7 +98,10 @@ struct ProfileView: View {
             .padding(.vertical)
         }
         
-//        if viewModel.context == .search(type: .home) {
+        if content == .profileHomeSearch {
+            
+            WeatherView()
+            
 //            VStack{
 //                SearchBar(viewModel: viewModel)
 //                if viewModel.destination.isEmpty {
@@ -107,7 +116,7 @@ struct ProfileView: View {
 //                }
 //                Spacer()
 //            }
-//        }
+        }
         
 //        if viewModel.context == .search(type: .office) {
 //            VStack{
