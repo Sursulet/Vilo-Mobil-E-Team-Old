@@ -11,6 +11,8 @@ import MapKit
 
 final class MainViewModel: ObservableObject {
     
+    @Published var user = User()
+    
     var height: CGFloat = 0
     
     @Published var offset: CGFloat = 0
