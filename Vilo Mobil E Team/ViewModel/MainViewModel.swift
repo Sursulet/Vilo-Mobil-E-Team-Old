@@ -61,7 +61,7 @@ final class MainViewModel: ObservableObject {
         return result
     }
     
-    private func setAnimation(value: ModalSize) {
+    func setAnimation(value: ModalSize) {
         
         let maxHeight = height - 100
         

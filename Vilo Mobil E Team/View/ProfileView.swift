@@ -9,24 +9,23 @@ import SwiftUI
 
 struct ProfileView: View {
     
-    @ObservedObject var viewModel = BottomSheetModel.profileBS
-    @ObservedObject var user = User.globalUser
+    @EnvironmentObject var viewModel: MainViewModel
     
     @State private var tap = false
     
     var body: some View {
         
-        if viewModel.context == .profile {
+        if viewModel.modalContent == .profile {
             List{
                 Button {
                     // action: go to address selection
-                    viewModel.context = .search(type: .home)
+                    viewModel.modalContent = .search(type: .home)
                     viewModel.position = .top
                 } label: {
                     HStack{
                         Text("Mon domicile")
                         Spacer()
-                        Text(user.homeAddress)
+                        Text(viewModel.user.homeAddress)
                             .font(.footnote)
                             .foregroundColor(.blue)
                     }
