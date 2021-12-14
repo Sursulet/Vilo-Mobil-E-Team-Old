@@ -16,6 +16,18 @@ struct WeatherView: View {
     var body: some View {
         VStack {
             
+            HStack {
+                VStack(alignment: .leading) {
+                    Text("Météo du jour")
+                        .font(.title2)
+                    Text("Paris, France")
+                        .font(.caption)
+                }
+                
+                Spacer()
+            }
+            .padding(.leading, 30)
+            
             List(forecasts, id: \.forecastTimeStamp){ forecast in
                 GeometryReader{ proxy in
                     HStack{
@@ -45,9 +57,12 @@ struct WeatherView: View {
             }
             .listStyle(.plain)
             .padding(.vertical)
+            .frame(maxHeight: 600)
             
             Text("InfoClimat actualisé le: " + (self.date?.description ?? ""))
                 .font(.footnote)
+            
+            Spacer()
         }
         .task{
             await loadWeatherData()
