@@ -9,14 +9,15 @@ import SwiftUI
 
 struct IncidentReportView: View {
     
-    @State var text: String
+    @EnvironmentObject var viewModel: MainViewModel
+    
     var body: some View {
         VStack(spacing: 30){
            Spacer()
             
             Text("Signaler un incident")
                 .fontWeight(.bold)
-            TextField("Votre position", text: $text)
+            TextField("Votre position", text: $viewModel.textReport)
                 .frame(width: 300, height: 40)
                 .background(RoundedRectangle(cornerRadius: 10))
                 .opacity(0.2)
@@ -72,6 +73,7 @@ struct IncidentReportView: View {
 
 struct IncidentReportView_Previews: PreviewProvider {
     static var previews: some View {
-        IncidentReportView(text: "")
+        IncidentReportView()
+            .environmentObject(MainViewModel())
     }
 }
