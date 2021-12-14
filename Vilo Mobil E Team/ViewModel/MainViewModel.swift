@@ -61,29 +61,51 @@ final class MainViewModel: ObservableObject {
         return result
     }
     
+<<<<<<< Updated upstream
     func setAnimation(value: ModalSize) {
         
         let maxHeight = height - 100
         
         withAnimation(Animation.easeIn(duration: 0.3)) {
             self.modalOffset = 0
+=======
+    func setAnimation(value: ModalSize, selected: ModalContent) {
+        //self.newHeight = value
+        //self.maxHeight = self.height - 100//self.newHeight
+        
+        withAnimation(Animation.easeIn(duration: 0.3)) {
+            self.offsetModal = 0
+>>>>>>> Stashed changes
             self.offset = 0
         }
         
         var newOffset: CGFloat = 0
         
+<<<<<<< Updated upstream
         if value == .middle {
            newOffset = -(maxHeight / 3)
+=======
+        if value == .semi {
+           newOffset = -(self.maxHeight / 3)
+>>>>>>> Stashed changes
         } else if value == .full {
             newOffset = -maxHeight
         }
         
+<<<<<<< Updated upstream
         withAnimation(Animation.easeOut(duration: 0.5).delay(0.3)) {
             self.modalOffset = 100
+=======
+        self.active = selected
+        
+        withAnimation(Animation.easeOut(duration: 0.5).delay(0.3)) {
+            self.offsetModal = 100
+>>>>>>> Stashed changes
             self.offset = newOffset
         }
         
         self.lastOffset = self.offset
+<<<<<<< Updated upstream
     }
 }
 
@@ -138,4 +160,18 @@ struct Place: Identifiable, Hashable {
 
 extension User {
     static var globalUser = User()
+=======
+        
+        //self.offsetModal = 100
+        //withAnimation() {
+        //    self.offset = -(self.maxHeight / 3)
+        //}
+        /*
+        withAnimation() {
+            self.offset = -(self.maxHeight / 3)
+            //offset = 0
+            //isAnimated.toggle()
+        }*/
+    }
+>>>>>>> Stashed changes
 }
